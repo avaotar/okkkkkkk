@@ -1,0 +1,170 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local lilpeepsgui = Instance.new("Frame")
+local Pullwood = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Fly_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local FreeLand = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ModWood = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Maxland = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+lilpeepsgui.Name = "lil peeps gui"
+lilpeepsgui.Parent = ScreenGui
+lilpeepsgui.BackgroundColor3 = Color3.fromRGB(76, 53, 40)
+lilpeepsgui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lilpeepsgui.BorderSizePixel = 0
+lilpeepsgui.Position = UDim2.new(0.0554035418, 0, 0.0572519079, 0)
+lilpeepsgui.Size = UDim2.new(0, 488, 0, 192)
+
+Pullwood.Name = "Pullwood"
+Pullwood.Parent = lilpeepsgui
+Pullwood.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Pullwood.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Pullwood.BorderSizePixel = 0
+Pullwood.Position = UDim2.new(0.701610208, 0, 0.724995196, 0)
+Pullwood.Size = UDim2.new(0, 117, 0, 33)
+Pullwood.Font = Enum.Font.SourceSans
+Pullwood.Text = "Pullwood"
+Pullwood.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pullwood.TextSize = 14.000
+
+UICorner.Parent = Pullwood
+
+Fly.Name = "Fly"
+Fly.Parent = lilpeepsgui
+Fly.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.701610208, 0, 0.146661878, 0)
+Fly.Size = UDim2.new(0, 117, 0, 33)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 14.000
+
+UICorner_2.Parent = Fly
+
+Fly_2.Name = "Fly"
+Fly_2.Parent = lilpeepsgui
+Fly_2.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Fly_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly_2.BorderSizePixel = 0
+Fly_2.Position = UDim2.new(0.701610208, 0, 0.452286869, 0)
+Fly_2.Size = UDim2.new(0, 117, 0, 33)
+Fly_2.Font = Enum.Font.SourceSans
+Fly_2.Text = "Walkspeed"
+Fly_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly_2.TextSize = 14.000
+
+UICorner_3.Parent = Fly_2
+
+FreeLand.Name = "FreeLand"
+FreeLand.Parent = lilpeepsgui
+FreeLand.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+FreeLand.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FreeLand.BorderSizePixel = 0
+FreeLand.Position = UDim2.new(0.047921665, 0, 0.146870211, 0)
+FreeLand.Size = UDim2.new(0, 117, 0, 33)
+FreeLand.Font = Enum.Font.SourceSans
+FreeLand.Text = "FreeLand"
+FreeLand.TextColor3 = Color3.fromRGB(0, 0, 0)
+FreeLand.TextSize = 14.000
+
+UICorner_4.Parent = FreeLand
+
+ModWood.Name = "ModWood"
+ModWood.Parent = lilpeepsgui
+ModWood.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+ModWood.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ModWood.BorderSizePixel = 0
+ModWood.Position = UDim2.new(0.047921665, 0, 0.729995251, 0)
+ModWood.Size = UDim2.new(0, 117, 0, 33)
+ModWood.Font = Enum.Font.SourceSans
+ModWood.Text = "ModWood"
+ModWood.TextColor3 = Color3.fromRGB(0, 0, 0)
+ModWood.TextSize = 14.000
+
+UICorner_5.Parent = ModWood
+
+Maxland.Name = "Maxland"
+Maxland.Parent = lilpeepsgui
+Maxland.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Maxland.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Maxland.BorderSizePixel = 0
+Maxland.Position = UDim2.new(0.047921665, 0, 0.452286869, 0)
+Maxland.Size = UDim2.new(0, 117, 0, 33)
+Maxland.Font = Enum.Font.SourceSans
+Maxland.Text = "Maxland"
+Maxland.TextColor3 = Color3.fromRGB(0, 0, 0)
+Maxland.TextSize = 14.000
+
+UICorner_6.Parent = Maxland
+
+TextLabel.Parent = lilpeepsgui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.315286428, 0, 0.0353450775, 0)
+TextLabel.Size = UDim2.new(0, 180, 0, 41)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "lil peeps gui"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+UICorner_7.Parent = TextLabel
+
+UICorner_8.Parent = lilpeepsgui
+
+
+local Button = lilpeepsgui:CreateButton({
+    Name = "Maxland",
+    Callback = function()
+        function MaxLand()
+            for s,d in pairs(workspace.Properties:GetChildren()) do 
+            if d:FindFirstChild("Owner") and d:FindFirstChild("OriginSquare") and d.Owner.Value == game.Players.LocalPlayer then
+                local PlotPos = d.OriginSquare.Position
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40, PlotPos.Y, PlotPos.Z))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40, PlotPos.Y, PlotPos.Z))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X , PlotPos.Y, PlotPos.Z + 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X , PlotPos.Y, PlotPos.Z - 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40 , PlotPos.Y, PlotPos.Z + 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40 , PlotPos.Y, PlotPos.Z - 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40 , PlotPos.Y, PlotPos.Z + 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40 , PlotPos.Y, PlotPos.Z - 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X , PlotPos.Y, PlotPos.Z + 80))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X , PlotPos.Y, PlotPos.Z - 80))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z + 80))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z - 80))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z + 80))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z - 80))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40 , PlotPos.Y, PlotPos.Z + 80))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40 , PlotPos.Y, PlotPos.Z + 80))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z + 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 80 , PlotPos.Y, PlotPos.Z - 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z + 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 80 , PlotPos.Y, PlotPos.Z - 40))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X + 40 , PlotPos.Y, PlotPos.Z - 80))
+                game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty:FireServer(d,CFrame.new(PlotPos.X - 40 , PlotPos.Y, PlotPos.Z - 80))
+            end
+            end
+            end
+})
